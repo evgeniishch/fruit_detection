@@ -18,7 +18,7 @@ You can make use of conda env
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/evgeniishch/fruit_detection.git
 ```
 
 Go to the project directory
