@@ -42,5 +42,5 @@ To train the model, inside the container run
 For inference on sample data, inside the container run
 
 ```bash
-   python detect.py --source ../data/images/test --weights runs/train/exp/weights/best.pt
+   python detect.py --source ../data/images/test --weights runs/train/exp/weights/best.pt --conf-thres 0.6
 ```
