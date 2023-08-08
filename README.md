@@ -33,6 +33,12 @@ Run setup
   bash setup.sh
 ```
 
+Start docker container
+
+```bash
+  docker run --ipc=host -it --gpus all -v "$(pwd)"/data:/usr/src/data -v  "$(pwd)":/usr/src/project ultralytics/yolov5:latest
+```
+
 To train the model, inside the container run
 
 ```bash
